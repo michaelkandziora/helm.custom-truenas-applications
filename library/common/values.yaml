@@ -2,7 +2,7 @@
 global:
   labels: {}
   annotations: {}
-  minNodePort: 9000
+  minNodePort: 80
 
 # -- (docs/README.md)
 fallbackDefaults:

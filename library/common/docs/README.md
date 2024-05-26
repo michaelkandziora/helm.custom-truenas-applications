@@ -8,7 +8,7 @@ This options should not need to be changed per chart.
 | :----------------------------------------------------------------- | :------: | :------: | :----------------: | :---------: | :----------------------------------------------------------- |
 | .Values.global.labels                                              |  `dict`  |    ❌    | ✅ (On value only) |    `{}`     | Additional Labels that apply to all objects                  |
 | .Values.global.annotations                                         |  `dict`  |    ❌    | ✅ (On value only) |    `{}`     | Additional Annotations that apply to all objects             |
-| .Values.global.minNodePort                                         |  `int`   |    ✅    |         ❌         |   `9000`    | Minimum Node Port Allowed                                    |
+| .Values.global.minNodePort                                         |  `int`   |    ✅    |         ❌         |   `80`    | Minimum Node Port Allowed                                    |
 | .Values.fallbackDefaults.probeType                                 | `string` |    ✅    |         ❌         |   `http`    | Default probe type when not defined in the container level   |
 | .Values.fallbackDefaults.serviceProtocol                           | `string` |    ✅    |         ❌         |    `tcp`    | Default service protocol when not defined in the service     |
 | .Values.fallbackDefaults.serviceType                               | `string` |    ✅    |         ❌         | `ClusterIP` | Default service type when not defined in the service         |
@@ -59,7 +59,7 @@ global:
   annotations:
     key: value
     keytpl: "{{ .Values.some.value }}"
-  minNodePort: 9000
+  minNodePort: 80
 
 faillbackDefaults:
   probeType: http
