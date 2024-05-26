@@ -1,24 +1,24 @@
 {
-    "1.0.32": {
+    "1.0.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/helm.custom-truenas-applications/charts/nginx-proxy-manager/1.0.32",
+        "location": "/__w/helm.custom-truenas-applications/charts/nginx-proxy-manager2/1.0.0",
         "last_update": "2024-05-25 05:48:56",
         "required_features": [
             "normalize/ixVolume",
             "definitions/timezone"
         ],
-        "human_version": "2.11.2_1.0.32",
-        "version": "1.0.32",
+        "human_version": "2.11.2_1.0.0",
+        "version": "1.0.0",
         "chart_metadata": {
-            "name": "nginx-proxy-manager",
+            "name": "nginx-proxy-manager2",
             "description": "Expose your services easily and securely",
             "annotations": {
-                "title": "Nginx Proxy Manager"
+                "title": "Nginx Proxy Manager 2"
             },
             "type": "application",
-            "version": "1.0.32",
+            "version": "1.0.0",
             "apiVersion": "v2",
             "appVersion": "2.11.2",
             "kubeVersion": ">=1.16.0-0",
@@ -32,8 +32,8 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "repository": "file://../../../common",
-                    "version": "1.2.9"
+                    "repository": "file://../../library/common",
+                    "version": "2304.0.1"
                 }
             ],
             "home": "https://nginxproxymanager.com/",
