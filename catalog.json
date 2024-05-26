@@ -1,7 +1,7 @@
 {
     "charts": {
         "nginx-proxy-manager2": {
-            "app_readme": "<h1>Nginx Proxy Manager</h1>\n<p><a href=\"https://nginxproxymanager.com\">Nginx Proxy Manager</a> Expose your services easily and securely</p>\n<blockquote>\n<p>Application requires to run as root. This is a limitation of the application.</p>\n</blockquote>",
+            "app_readme": "<h1>Nginx Proxy Manager 2</h1>\n<p><a href=\"https://nginxproxymanager.com\">Nginx Proxy Manager 2</a> Expose your services easily and securely</p>\n<blockquote>\n<p>Application requires to run as root. This is a limitation of the application.</p>\n</blockquote>",
             "categories": [
                 "networking"
             ],
@@ -9,14 +9,14 @@
             "healthy": true,
             "healthy_error": null,
             "home": "https://nginxproxymanager.com/",
-            "location": "/__w/helm.custom-truenas-applications/charts/nginx-proxy-manager",
+            "location": "/__w/helm.custom-truenas-applications/charts/nginx-proxy-manager2",
             "latest_version": "1.0.0",
             "latest_app_version": "2.11.2",
             "latest_human_version": "2.11.2_1.0.0",
             "last_update": "2024-05-25 05:48:56",
-            "name": "nginx-proxy-manager",
+            "name": "nginx-proxy-manager2",
             "recommended": false,
-            "title": "Nginx Proxy Manager",
+            "title": "Nginx Proxy Manager 2",
             "maintainers": [
                 {
                     "name": "Max Mustermann",
@@ -35,7 +35,7 @@
             ],
             "sources": [
                 "https://nginxproxymanager.com/",
-                "https://github.com/michaelkandziora/helm.custom-truenas-applications/tree/main/charts/nginx-proxy-manager",
+                "https://github.com/michaelkandziora/helm.custom-truenas-applications/tree/main/charts/nginx-proxy-manager2",
                 "https://hub.docker.com/r/jc21/nginx-proxy-manager"
             ],
             "icon_url": "https://media.sys.truenas.net/apps/nginx-proxy-manager/icons/icon.png"
