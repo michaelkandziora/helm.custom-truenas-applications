@@ -1,0 +1,13 @@
+{
+  "name": "custom-truenas-applications",
+  "description": "A custom catalog for TrueNAS SCALE applications",
+  "location": "https://github.com/michaelkandziora/helm.custom-truenas-applications",
+  "maintainers": [
+    {
+      "name": "Michael Kandziora",
+      "email": "michael.kandziora@example.com"
+    }
+  ],
+  "preferred_trains": ["stable"]
+}
+
