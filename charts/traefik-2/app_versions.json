@@ -3,7 +3,7 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/premium/traefik/27.0.12",
+        "location": "/home/runner/_work/helm.custom-truenas-applications/charts/traefik/27.0.12",
         "last_update": "2024-05-27 12:43:20",
         "required_features": [
             "definitions/timezone",
