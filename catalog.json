@@ -1,6 +1,41 @@
 {
     "charts": {
-        "nginx-proxy-manager2": {
+        "traefik-2": {
+            "app_readme": "<p>Traefik is a flexible reverse proxy and Ingress Provider.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/premium/traefik\">https://truecharts.org/charts/premium/traefik</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "network"
+            ],
+            "description": "Traefik is a flexible reverse proxy and Ingress Provider.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/premium/traefik",
+            "location": "/home/runner/_work/helm.custom-truenas-applications/charts/traefik-2",
+            "latest_version": "27.0.12",
+            "latest_app_version": "2.11.2",
+            "latest_human_version": "2.11.2_27.0.12",
+            "last_update": "2024-05-27 12:43:20",
+            "name": "traefik-2",
+            "recommended": false,
+            "title": "Traefik-2",
+            "maintainers": [
+                {
+                    "name": "Max Mustermann",
+                    "url": "https://www.example.com/",
+                    "email": "dev@example.com"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/traefik/traefik",
+                "https://github.com/traefik/traefik-helm-chart",
+                "https://github.com/truecharts/charts/tree/master/charts/premium/traefik",
+                "https://github.com/truecharts/containers/tree/master/apps/traefik",
+                "https://traefik.io/"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.webp"
+        },
+        "nginx-proxy-manager-2": {
             "app_readme": "<h1>Nginx Proxy Manager 2</h1>\n<p><a href=\"https://nginxproxymanager.com\">Nginx Proxy Manager 2</a> Expose your services easily and securely</p>\n<blockquote>\n<p>Application requires to run as root. This is a limitation of the application.</p>\n</blockquote>",
             "categories": [
                 "networking"
@@ -9,7 +44,7 @@
             "healthy": true,
             "healthy_error": null,
             "home": "https://nginxproxymanager.com/",
-            "location": "/__w/helm.custom-truenas-applications/charts/nginx-proxy-manager2",
+            "location": "/__w/helm.custom-truenas-applications/charts/nginx-proxy-manager-2",
             "latest_version": "1.0.0",
             "latest_app_version": "2.11.2",
             "latest_human_version": "2.11.2_1.0.0",
